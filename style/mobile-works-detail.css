@@ -158,14 +158,14 @@
     margin-right: auto;
     margin-top: 1.375rem;
     font-size: 0.875rem;
-    color: #b4a994;
+    color: #ece4d5;
     font-family: PingFangSC-Regular, sans-serif;
     letter-spacing: 0.27rem;
 }
 .detail-box{
     margin-top: 1.3rem;
     width: 86.6%;
-    height: 1.85rem;
+    height: fit-content;
     background: #6f5c46;
     margin-left: auto;
     margin-right: auto;
