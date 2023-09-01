@@ -1,131 +1,167 @@
 /*移动端打开,把PC端内容隐藏掉*/
-.first-container{
+.first-container {
     display: none;
 }
 
+.swiper-slide {
+    width: 414px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 /*移动端样式*/
-.second-container{
+.second-container {
     width: 100vw;
     height: 100vh;
-    background: url("../img/flower.jpg") 0 0  no-repeat;
+    background: url("../img/flower.jpg") 0 0 no-repeat;
     background-size: auto 100%;
 }
+
 .center-in-center {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.8);
 }
+
 /*.new-works{*/
-    /*width: 285px;*/
-    /*height: 405px;*/
-    /*background: red;*/
-    /*margin-top: 95px;*/
-    /*margin-left: 45px;*/
-    /*position: relative;*/
+/*width: 285px;*/
+/*height: 405px;*/
+/*background: red;*/
+/*margin-top: 95px;*/
+/*margin-left: 45px;*/
+/*position: relative;*/
 /*}*/
-.new-works{
-    width: 17.8125rem;
-    height: 25.3125rem;
-    background: red;
-    margin-top: 5.9375rem;
-    margin-left: auto;
-    margin-right: auto;
+.new-works {
+    width: 300px;
+    height: 500px;
+    float: left;
     position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
 }
-.first-bg{
+
+.lyt-img {
+    width: 160px;
+}
+
+.lyt-title {
+    text-align: center;
+    margin-top: 35px;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.first-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.second-bg{
+
+.second-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.third-bg{
+
+.third-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.fourth-bg{
+
+.fourth-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.fifth-bg{
+
+.fifth-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.sixth-bg{
+
+.sixth-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.seventh-bg{
+
+.seventh-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.eighth-bg{
+
+.eighth-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.ninth-bg{
+
+.ninth-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
-.tenth-bg{
+
+.tenth-bg {
     background: url("../img/worksBg.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
 }
 
 .works-btn {
-    width: 6.375rem;
-    height: 2.3125rem;
-    display: block;
-    border-radius: 0.4rem;
-    font-size: 1rem;
-    text-align: center;
-    /*line-height: 2.3125rem;*/
-    line-height: 2.3rem;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
     border: 1px solid #372416;
-    color: #f2e1d6;
-    background: #372416;
-    position: absolute;
-    bottom: 1.75rem;
-    left: 6.0625rem;
-    letter-spacing: 0.125rem;
+    border-radius: 8px;
+    text-align: center;
+    color: #372416;
+    font-size: 18px;
 }
-a{text-decoration:none}
+
+a {
+    text-decoration: none
+}
 
 
-.bottom-pagination{
+.bottom-pagination {
     width: 68%;
     height: 3.375rem;
     position: absolute;
     bottom: 3.125rem;
     left: 16%;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
     width: 2.1875rem;
     height: 2.75rem;
-    background:url("../image/nav3.png") 0 0 no-repeat;
-    background-size:100% 100% ;
-    margin-right: 1.0625rem ;
-    opacity:1;
-    border-radius:0;
+    background: url("../image/nav3.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-right: 1.0625rem;
+    opacity: 1;
+    border-radius: 0;
 }
-.swiper-pagination-bullet:last-child{
+
+.swiper-pagination-bullet:last-child {
     margin-right: 0;
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
     width: 2.1875rem;
     height: 2.75rem;
     background: url("../image/selected.png") 0 0 no-repeat;
-    background-size:100% 100% ;
-    opacity:1;
-    border-radius:0;
+    background-size: 100% 100%;
+    opacity: 1;
+    border-radius: 0;
 }
-.lowest-pagination{
+
+.lowest-pagination {
     width: 68%;
     height: 3.375rem;
     position: absolute;
     bottom: 2rem;
     left: 16%;
 }
-
