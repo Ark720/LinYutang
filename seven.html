@@ -70,14 +70,17 @@
     <div class="mobile" id="app">
         <iframe class="mobile-iframe" marginwidth="0" src="">
         </iframe>
+        <div class="sketchfab-embed-wrapper second-main" style="position: relative;" marginwidth="0">
+            <!-- <model-viewer disable-zoom camera-controls alt="Model" src="./model/teapot.glb" style="width: 100%; height: 100%; background: black;">
+        </model-viewer> -->
+            <iframe title="齊白石篆刻林語堂姓名魚鈕壽山巧色高山石大方章" frameborder="0" allowfullscreen style="width: 100%; height: 100%;"
+                mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+                src="https://sketchfab.com/models/57a49fef7d454472a35d4fc886c6227f/embed?autospin=0&autostart=1&camera=0&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_help=0&ui_settings=0&ui_fullscreen=1&ui_annotations=0">
+            </iframe>
+        </div>
         <div class="main-title">
-            雙福臨門雕金帝王壺
-            <div class="main-top">
-                【
-            </div>
-            <div class="main-bottom">
-                】
-            </div>
+            齊白石篆刻林語堂姓名魚鈕壽山巧色高山石大方章
         </div>
         <div class="detail-btn-wrapper main-detail">
             <div class="detail-btn main-btn" @click="ifShow"></div>
@@ -89,26 +92,42 @@
         </div>
 
         <div class="text-detail-wrapper" v-if="show">
-            <p class="titie">雙福臨門雕金帝王壺</p>
-            <div class="subtitle">【 Tara Like 】</div>
+            <p class="titie">齊白石篆刻林語堂姓名魚鈕壽山巧色高山石大方章</p>
             <div class="text-content">
-                吹口飾蓮瓣及卷草紋，外板則鍍金，並敲飾五瓣花式錦、鑄藏文贊詞與卷草紋，緣鑲珊瑚、松石、青金石等。
+                Lin Yutang , a native of Longxi in Zhangzhou , holds a doctorate in linguistics from the University of
+                Leipzig , and was formerly a professor at Peking University . Lin Yutang, a literatus and inventor of
+                the Republic of China (R.O.C.), was nominated for the Nobel Prize for Literature in 1940 and 1950. He is
+                based in Hong Kong and Taiwan.
+                Mr. Lin Yutang realized that the Chinese character detection technology of that era was not advanced
+                enough, so he left his family to devote himself to the study of Chinese character detection rules, and
+                finally, in 1947, he invented the "Ming Fu Chinese Typewriter", which was patented in the United States
+                in 1952, and lasted for six and a half years. In 1952, he was granted a patent in the U.S., which lasted
+                for six and a half years. He also licensed Shentong Computer to use it as the input method for his
+                Chinese computer, which Shentong Computer called the "Simple Input Method".
+                This seal was brought to Taiwan by Lin Yutang and his wife, Liao Cui-feng, during their second visit to
+                Taiwan in 1966 in preparation for their settlement in Taiwan. Please turn over the artifact to see the
+                three-dimensional seal clearly. This seal adopts the latest 3D technology, so you can easily read the
+                details.
             </div>
             <div class="detail-address detail-box ">
-                文物朝代 ： 清朝
+                尺寸 ： 2.7×2.7×6(cm)
             </div>
             <div class="detail-age detail-box mt10">
-                公元紀年 ： 1736-1795
+                印文字型 ： 篆文。楷書
             </div>
             <div class="detail-born detail-box mt10">
-                出土地址：未知
+                年代：X
+            </div>
+            <div class="detail-born detail-box mt10">
+                印文：<br>
+                白石
             </div>
             <div class="last-one mt10">
                 <div class="last-one-left">
-                    年號 ： 乾隆
+                    致贈人 ： 林語堂
                 </div>
                 <div class="last-one-right">
-                    技法 ： 刻款
+                    刻印人 ： 齊白石
                 </div>
             </div>
             <div class="detail-btn-wrapper text-detail" @click="ifHide">
