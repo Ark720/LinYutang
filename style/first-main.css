@@ -1,0 +1,248 @@
+/*å°åŒ—åšç‰©é¦†1*/
+.second-container {
+    display: none;
+}
+
+.first-container {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/flower.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.position a:hover {
+    /*padding: 10px;*/
+    border: 1px solid #cccccc;
+}
+
+.prev {
+    position: absolute;
+    top: 50vh;
+    left: 20px;
+    width: 30px;
+    height: 45px;
+    text-align: center;
+    color: #cccccc;
+}
+
+.next {
+    position: absolute;
+    top: 50vh;
+    right: 20px;
+    width: 30px;
+    height: 45px;
+    text-align: center;
+    color: #cccccc;
+}
+
+.prev img,
+.next img {
+    width: 18px;
+    height: 31px;
+    margin-top: 9px;
+}
+
+.center-in-center {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* width: 1758px; */
+    /* height: 447px; */
+    /*background: red;*/
+}
+.lyt-img {
+    width: 160px;
+}
+.lyt-title {
+    text-align: center;
+    margin-top: 35px;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*ç¬¬ä¸€ä½œå“å¼€å§‹*/
+.works {
+    width: 314px;
+    height: 447px;
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    box-shadow: 0 0 0 1px #ccc;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.pad {
+    margin-left: 43px;
+}
+
+.work-title {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    margin-top: 45px;
+    color: #372416;
+}
+
+.works-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 104px;
+    height: 205px;
+    margin-top: 44px;
+}
+
+.works-btn {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #372416;
+    border-radius: 8px;
+    text-align: center;
+    color: #372416;
+    font-size: 18px;
+}
+
+.works-btn-last {
+    margin-top: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 81px;
+    height: 32px;
+    line-height: 32px;
+    border: 1.5px solid #50461e;
+    border-radius: 8px;
+    text-align: center;
+    color: #50461e;
+    font-size: 14px;
+}
+
+.second-works {
+    margin-left: auto;
+    margin-right: auto;
+    width: 176px;
+    height: 198px;
+    margin-top: 44px;
+}
+
+.third-works {
+    margin-left: auto;
+    margin-right: auto;
+    width: 145px;
+    height: 198px;
+    margin-top: 44px;
+}
+
+.fourth-works {
+    margin-left: auto;
+    margin-right: auto;
+    width: 166px;
+    height: 198px;
+    margin-top: 44px;
+}
+
+.fifth-works {
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 198px;
+    margin-top: 50px;
+}
+
+.sixth-works {
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 198px;
+    margin-top: 50px;
+}
+
+/*æ–°æ ·å¼*/
+.new-works {
+    width: 300px;
+    height: 500px;
+    float: left;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.first-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.second-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.third-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.fourth-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.fifth-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.sixth-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.seventh-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.eighth-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.ninth-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.tenth-bg {
+    background: url("../img/worksBg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.new-works a:link {
+    text-decoration: none;
+}
+
+.new-works a:hover {
+    background: #372416;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 800px) {
+    .clearfix {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+}
