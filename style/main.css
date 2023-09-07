@@ -92,6 +92,8 @@ p{
     padding: 0 27px;
     color: #665c45;
     font-family:  "Microsoft YaHei";
+    height: 32vh;
+    overflow-y: scroll;
 }
 .second-font14{
     font-size: 14px;
