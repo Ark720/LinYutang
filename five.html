@@ -18,8 +18,9 @@
     </iframe> -->
         <audio id="music" src="./audio/ch.m4a" loop autoplay></audio>
         <div class="sketchfab-embed-wrapper second-main" style="position: relative;" marginwidth="0">
-            <model-viewer camera-controls alt="Model" src="./model/5.glb" style="width: 100%; height: 100%; background: black;">
-        </model-viewer>
+            <model-viewer camera-controls alt="Model" src="./model/5.glb"
+                style="width: 100%; height: 100%; background: black;">
+            </model-viewer>
             <!-- <iframe title="林惠瀛篆刻林語堂、翠鳳姓名鰲龍鈕壽山紅高山對章" frameborder="0" allowfullscreen style="width: 100%; height: 100%;"
                 mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
                 xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
@@ -62,7 +63,8 @@
         <!-- <iframe class="mobile-iframe" marginwidth="0" src="">
         </iframe> -->
         <div class="sketchfab-embed-wrapper second-main" style="position: relative;" marginwidth="0">
-            <model-viewer camera-controls alt="Model" src="./model/5.glb" style="width: 100vw; height: 100vh; background: black;">
+            <model-viewer camera-controls alt="Model" src="./model/5.glb"
+                style="width: 100vw; height: 100vh; background: black;">
             </model-viewer>
             <!-- <iframe title="林惠瀛篆刻林語堂、翠鳳姓名鰲龍鈕壽山紅高山對章" frameborder="0" allowfullscreen style="width: 100%; height: 100vh;"
                 mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
@@ -83,6 +85,16 @@
         </div>
 
         <div class="text-detail-wrapper" v-if="show">
+            <audio id="myAudio" src="./audio/ch.m4a" preload="auto">
+            </audio>
+            <img src="./img/unmute.jpg" onclick="togglePlay()"
+                style="position: absolute; width: 30px; right: 20px; top: 10px; background: white; padding: 8px; border-radius: 100%;" />
+            <script type="text/javascript">
+                function togglePlay() {
+                    var myAudio = document.getElementById("myAudio");
+                    return myAudio.paused ? myAudio.play() : myAudio.pause();
+                };
+            </script>
             <p class="titie">林惠瀛篆刻林語堂、翠鳳姓名鰲龍鈕壽山紅高山對章</p>
             <div class="text-content">
                 林語堂，漳州龍溪人，為德國萊比錫大學語言學博士，曾任北京大學教授，是中華民國文學家及發明家，1940年和1950年兩度獲得諾貝爾文學獎的提名。定居於香港與台灣。
