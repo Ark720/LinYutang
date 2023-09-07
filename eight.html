@@ -84,6 +84,16 @@
         </div>
 
         <div class="text-detail-wrapper" v-if="show">
+            <audio id="myAudio" src="./audio/jp.m4a" preload="auto">
+            </audio>
+            <img src="./img/unmute.jpg" onclick="togglePlay()"
+                style="position: absolute; width: 30px; right: 20px; top: 10px; background: white; padding: 8px; border-radius: 100%;" />
+            <script type="text/javascript">
+                function togglePlay() {
+                    var myAudio = document.getElementById("myAudio");
+                    return myAudio.paused ? myAudio.play() : myAudio.pause();
+                };
+            </script>
             <p class="titie">無款有不為齋黏岩巧色昌化石自然章</p>
             <div class="text-content">
                 ライプツィヒ大学で言語学の博士号を取得。 中華民国の文学者であり発明家でもある林語堂は、1940年と1950年にノーベル文学賞にノミネートされた。 彼は香港と台湾を拠点に活動している。

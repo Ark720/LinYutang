@@ -92,6 +92,16 @@
         </div>
 
         <div class="text-detail-wrapper" v-if="show">
+            <audio id="myAudio" src="./audio/en.m4a" preload="auto">
+            </audio>
+            <img src="./img/unmute.jpg" onclick="togglePlay()"
+                style="position: absolute; width: 30px; right: 20px; top: 10px; background: white; padding: 8px; border-radius: 100%;" />
+            <script type="text/javascript">
+                function togglePlay() {
+                    var myAudio = document.getElementById("myAudio");
+                    return myAudio.paused ? myAudio.play() : myAudio.pause();
+                };
+            </script>
             <p class="titie">齊白石篆刻林語堂姓名魚鈕壽山巧色高山石大方章</p>
             <div class="text-content">
                 Lin Yutang , a native of Longxi in Zhangzhou , holds a doctorate in linguistics from the University of
